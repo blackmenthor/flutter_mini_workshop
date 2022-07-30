@@ -1,0 +1,48 @@
+name: flutter_workshop_depok
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: DMSans
+      fonts:
+        - asset: res/fonts/DM_Sans/DMSans-Regular.ttf
+        - asset: res/fonts/DM_Sans/DMSans-Italic.ttf
+          style: italic
+        - asset: res/fonts/DM_Sans/DMSans-Bold.ttf
+          weight: 700
+        - asset: res/fonts/DM_Sans/DMSans-Medium.ttf
+          weight: 500
+        - asset: res/fonts/DM_Sans/DMSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: res/fonts/DM_Sans/DMSans-BoldItalic.ttf
+          style: italic
+          weight: 700
+
+  assets:
+    - res/images/
+    - res/images/categories/
+    - res/images/news/
+    - res/images/products/
